@@ -1,0 +1,39 @@
+{
+  "name": "fcc-url-shortener",
+  "version": "0.1.0",
+  "description": "FCC URL Shortener Microservice",
+  "engines": {
+    "node": "v11.9.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.15.2",
+    "helmet": "^3.15.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.11",
+    "shortid": "^2.2.14",
+    "url-exists": "^1.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CloudPower97/fcc-url-shortener"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "fcc",
+    "api",
+    "microservice"
+  ],
+  "license": "MIT"
+}
