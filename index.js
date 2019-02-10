@@ -1,4 +1,3 @@
-require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const helmet = require('helmet');
@@ -20,10 +19,6 @@ mongoose
           extended: false
         })
       );
-
-    app.get('/', (req, res, next) => {
-      res.redirect(301, 'https://www.google.it');
-    });
 
     app.use('/api/shorturl', shorturlRouter);
 
